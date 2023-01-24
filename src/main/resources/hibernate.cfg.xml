@@ -4,9 +4,9 @@
     <session-factory>
 <!--        <property name="hibernate.transaction.factory_class">org.hibernate.transaction.JDBCTransactionFactory</property>-->
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/rwanda</property>
-        <property name="hibernate.connection.username">bruno</property>
-        <property name="hibernate.connection.password">Bruno@1980</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/players</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">123</property>
 
         <property name="hibernate.session_factory_name">SchoolSessionFactory</property>
         <property name="hibernate.connection.pool_size">1</property>
@@ -29,11 +29,10 @@
 
         <!-- Models -->
             <mapping class="rca.ac.rw.orm.User"></mapping>
-            <mapping class="rca.ac.rw.orm.Likes"></mapping>
-            <mapping class="rca.ac.rw.orm.Messages"></mapping>
-            <mapping class="rca.ac.rw.orm.Notifications"></mapping>
-            <mapping class="rca.ac.rw.orm.Posts"></mapping>
-            <mapping class="rca.ac.rw.orm.Comment"></mapping>
+            <mapping class="rca.ac.rw.orm.Playlist"></mapping>
+            <mapping class="rca.ac.rw.orm.Song"></mapping>
+
+
 
     </session-factory>
 </hibernate-configuration>
