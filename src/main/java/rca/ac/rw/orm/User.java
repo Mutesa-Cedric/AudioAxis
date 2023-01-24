@@ -60,11 +60,4 @@ public class User {
         this.profilePic = profilePic;
     }
 
-//    public ArrayList<User> getFollowers() {
-//        return followers;
-//    }
-//
-//    public void setFollowers(ArrayList<User> followers) {
-//        this.followers = followers;
-//    }
 }

@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a93e2424-bb87-40a3-bcb8-75f70a3d0fb2" name="Changes" comment="Removed the followers java class and added that property in the users class">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a93e2424-bb87-40a3-bcb8-75f70a3d0fb2" name="Changes" comment="feat : implemented song DAO &amp; interfaces">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rca/ac/rw/dao/song/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rca/ac/rw/dao/song/Song.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rca/ac/rw/dao/song/SongDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rca/ac/rw/dao/song/SongDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rca/ac/rw/orm/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rca/ac/rw/orm/Song.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rca/ac/rw/orm/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rca/ac/rw/orm/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +117,8 @@
       <workItem from="1674568011895" duration="1272000" />
       <workItem from="1674569306139" duration="10000" />
       <workItem from="1674569340984" duration="16000" />
-      <workItem from="1674570133965" duration="817000" />
+      <workItem from="1674570133965" duration="1795000" />
+      <workItem from="1674572341669" duration="1306000" />
     </task>
     <task id="LOCAL-00001" summary="Removed the followers java class and added that property in the users class">
       <created>1673939680888</created>
@@ -129,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673939680888</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat : implemented song DAO &amp; interfaces">
+      <created>1674571038363</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674571038363</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +153,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Removed the followers java class and added that property in the users class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed the followers java class and added that property in the users class" />
+    <MESSAGE value="feat : implemented song DAO &amp; interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : implemented song DAO &amp; interfaces" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
