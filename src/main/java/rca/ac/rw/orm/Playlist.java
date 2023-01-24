@@ -2,23 +2,26 @@ package rca.ac.rw.orm;
 
 import javax.persistence.*;
 import java.util.ArrayList;
+import java.util.List;
 
 @Entity
-@Table(schema = "playlists")
 public class Playlist {
 private String name;
 @Id
 @GeneratedValue(strategy = GenerationType.IDENTITY)
 private int id;
 private int creatorId;
-private ArrayList<Song> songs;
+@OneToMany(cascade = CascadeType.ALL,mappedBy = "id")
+private List<Song> songs;
 private int likes;
+private Status status;
 private int monthlyListeners;
 
-public Playlist(String name, int creatorId,ArrayList<Song> songs){
+public Playlist(String name, int creatorId,ArrayList<Song> songs, Status stat){
     this.songs = songs;
     this.creatorId = creatorId;
     this.name = name;
+    this.status = stat;
 }
 
     public String getName() {
@@ -37,7 +40,7 @@ public Playlist(String name, int creatorId,ArrayList<Song> songs){
         this.creatorId = creatorId;
     }
 
-    public ArrayList<Song> getSongs() {
+    public List<Song> getSongs() {
         return songs;
     }
 
