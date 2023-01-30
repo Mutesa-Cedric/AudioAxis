@@ -4,13 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a93e2424-bb87-40a3-bcb8-75f70a3d0fb2" name="Changes" comment="updated the playlist and PlaylistDaoImpl">
+<<<<<<< HEAD
+    <list default="true" id="a93e2424-bb87-40a3-bcb8-75f70a3d0fb2" name="Changes" comment="Playlist and Song class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/rca/ac/rw/orm/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rca/ac/rw/starter/SimpleAudioPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/rca/ac/rw/dao/playlist/Playlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rca/ac/rw/dao/playlist/Playlist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/rca/ac/rw/dao/playlist/PlaylistDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rca/ac/rw/dao/playlist/PlaylistDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rca/ac/rw/dao/song/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rca/ac/rw/dao/song/Song.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rca/ac/rw/dao/song/SongDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rca/ac/rw/dao/song/SongDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rca/ac/rw/dao/user/user.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rca/ac/rw/dao/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rca/ac/rw/orm/Playlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rca/ac/rw/orm/Playlist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/rca/ac/rw/orm/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rca/ac/rw/orm/Song.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rca/ac/rw/starter/StarterApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rca/ac/rw/starter/StarterApp.java" afterDir="false" />
+=======
+    <list default="true" id="a93e2424-bb87-40a3-bcb8-75f70a3d0fb2" name="Changes" comment="feat : implemented song DAO &amp; interfaces">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rca/ac/rw/orm/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rca/ac/rw/orm/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+>>>>>>> 86485e84325cfe82687006620e9e9f2cb6448535
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +57,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -55,7 +66,7 @@
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
     "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "C:/Program Files/apache-maven-3.8.7/bin",
+    "last_opened_file_path": "C:/Users/HP/IdeaProjects/house-booker",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -66,11 +77,42 @@
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "show.migrate.to.gradle.popup": "false",
-    "spring.configuration.checksum": "0a6ae59c9eea925c7047c2af265fa9b9",
+    "spring.configuration.checksum": "306af6cc9cdb36ed7cbdf3693d3569f2",
     "ts.external.directory.path": "C:\\Users\\HP\\AppData\\Local\\JetBrains\\IntelliJ IDEA 2022.3.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hallc\IdeaProjects\AudioAxis" />
+    </key>
+  </component>
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/IdeaProjects/house-booker&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;306af6cc9cdb36ed7cbdf3693d3569f2&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\HP\\AppData\\Local\\JetBrains\\IntelliJ IDEA 2022.3.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+>>>>>>> 86485e84325cfe82687006620e9e9f2cb6448535
   <component name="RunManager">
     <configuration name="StarterApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="rca.ac.rw.starter.StarterApp" />
@@ -116,13 +158,17 @@
       <workItem from="1674128759518" duration="228000" />
       <workItem from="1674462669041" duration="7581000" />
       <workItem from="1674513458633" duration="541000" />
+<<<<<<< HEAD
+      <workItem from="1674532883657" duration="13098000" />
+      <workItem from="1674568987404" duration="3852000" />
+=======
       <workItem from="1674532883657" duration="7829000" />
-      <workItem from="1674568920980" duration="166000" />
-      <workItem from="1674569855211" duration="88000" />
-      <workItem from="1674676699142" duration="431000" />
-      <workItem from="1674762618851" duration="1536000" />
-      <workItem from="1674796745600" duration="1890000" />
-      <workItem from="1675061151348" duration="3991000" />
+      <workItem from="1674568011895" duration="1272000" />
+      <workItem from="1674569306139" duration="10000" />
+      <workItem from="1674569340984" duration="16000" />
+      <workItem from="1674570133965" duration="1795000" />
+      <workItem from="1674572341669" duration="1306000" />
+>>>>>>> 86485e84325cfe82687006620e9e9f2cb6448535
     </task>
     <task id="LOCAL-00001" summary="Removed the followers java class and added that property in the users class">
       <created>1673939680888</created>
@@ -131,12 +177,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673939680888</updated>
     </task>
-    <task id="LOCAL-00002" summary="updated data sources and jpa buddy">
-      <created>1675064524964</created>
+<<<<<<< HEAD
+    <task id="LOCAL-00002" summary="Playlist and Song class">
+      <created>1674554726650</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1675064524964</updated>
+      <updated>1674554726650</updated>
+=======
+    <task id="LOCAL-00002" summary="feat : implemented song DAO &amp; interfaces">
+      <created>1674571038363</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674571038363</updated>
+>>>>>>> 86485e84325cfe82687006620e9e9f2cb6448535
     </task>
     <option name="localTasksCounter" value="3" />
     <servers />
@@ -157,8 +212,27 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Removed the followers java class and added that property in the users class" />
-    <MESSAGE value="updated data sources and jpa buddy" />
-    <MESSAGE value="updated the playlist and PlaylistDaoImpl" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated the playlist and PlaylistDaoImpl" />
+<<<<<<< HEAD
+    <MESSAGE value="Playlist and Song class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Playlist and Song class" />
+=======
+    <MESSAGE value="feat : implemented song DAO &amp; interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : implemented song DAO &amp; interfaces" />
+>>>>>>> 86485e84325cfe82687006620e9e9f2cb6448535
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/rca/ac/rw/dao/user/UserDaoImpl.java</url>
+          <line>15</line>
+          <properties class="rca.ac.rw.dao.user.UserDaoImpl" method="saveUser">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

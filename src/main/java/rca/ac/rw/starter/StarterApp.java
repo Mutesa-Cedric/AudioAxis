@@ -6,6 +6,7 @@ import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 import rca.ac.rw.orm.Playlist;
 import rca.ac.rw.orm.Song;
+import rca.ac.rw.orm.Status;
 import rca.ac.rw.orm.User;
 
 import java.util.ArrayList;
@@ -22,7 +23,9 @@ public class StarterApp {
         Song song = new Song("Let you down","NF","./","");
         ArrayList<Song> songs = new ArrayList<Song>();
         songs.add(song);
-        Playlist play = new Playlist("Mood",123,songs);
+        song = new Song("Coca cola ","Vanexh","./");
+        songs.add(song);
+        Playlist play = new Playlist("Sad",123,songs, Status.PUBLIC);
         try{
             SessionFactory factory = configuration.buildSessionFactory();
             Session session = factory.openSession();
@@ -30,8 +33,8 @@ public class StarterApp {
             System.out.println("Beginning Transactions..........");
             Transaction transaction = session.beginTransaction();
 
-              session.saveOrUpdate(user);
-             session.save(play);
+            session.saveOrUpdate(user);
+            session.saveOrUpdate(play);
             System.out.println("Committing transaction.............");
             transaction.commit();
             System.out.println("Before Closing the session");

@@ -28,11 +28,10 @@
         <property name="hibernate.c3p0.timeout">1800</property>
 
         <!-- Models -->
-            <mapping class="rca.ac.rw.orm.User"></mapping>
-            <mapping class="rca.ac.rw.orm.Playlist"></mapping>
-            <mapping class="rca.ac.rw.orm.Song"></mapping>
-
-
+        <mapping class="rca.ac.rw.orm.User"></mapping>
+        <mapping class="rca.ac.rw.orm.Playlist"></mapping>
+        <mapping class="rca.ac.rw.orm.Song"></mapping>
+        <mapping class="rca.ac.rw.orm.Artist"></mapping>
 
     </session-factory>
 </hibernate-configuration>

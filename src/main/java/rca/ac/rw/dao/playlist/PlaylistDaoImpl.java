@@ -3,7 +3,8 @@ package rca.ac.rw.dao.playlist;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import rca.ac.rw.orm.Song;
-import javax.persistence.*;
+import rca.ac.rw.orm.Status;
+
 import java.util.ArrayList;
 
 public class PlaylistDaoImpl implements Playlist {
@@ -13,17 +14,11 @@ public class PlaylistDaoImpl implements Playlist {
         this.session = session;
         transaction = session.beginTransaction();
     }
-    @PersistenceContext
-    private EntityManager entityManager;
 
-    @Override
-    public Playlist getPlaylistById(int id) {
-        return entityManager.find(Playlist.class, id);
-    }
     @Override
     public void createPlaylist(String name, int creator, ArrayList<Song> songs) {
        try{
-           rca.ac.rw.orm.Playlist newPlayList = new rca.ac.rw.orm.Playlist(name,creator,songs);
+           rca.ac.rw.orm.Playlist newPlayList = new rca.ac.rw.orm.Playlist(name,creator,songs, Status.PRIVATE);
            session.save(newPlayList);
            transaction.commit();
        }catch(Exception e){
@@ -33,10 +28,17 @@ public class PlaylistDaoImpl implements Playlist {
            e.printStackTrace();
        }
     }
+  public void addSong(Song song, int playListID){
+
+   }
+
+    @Override
+    public void removeSong(int songId, int playListId) {
+
+    }
 
     @Override
     public void deletePlaylist(int id) {
-        Playlist playlist = getPlaylistById(id);
-        entityManager.remove(playlist);
+
     }
 }
